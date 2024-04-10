@@ -95,4 +95,64 @@ called a string array. It is used to hold the command line arguments in the form
 
 Here, agrs[] is the array name, and it is of String type. It means that it can store a group of strings. Remember,
 this array can also store a group of numbers but in the form of string only. Values passed to the main() method
-are called arguments. These arguments are stored into an args[] array, so the name args[] is generally used for it   
+are called arguments. These arguments are stored into an args[] array, so the name args[] is generally used for it  
+
+
+                 ** Java Variables and Data types **
+
+1. What is statically typed and Dynamically typed Programming Language?
+Ans: Statically typed: if the memory of the variable is given during the compilation time itself then such types of
+programming languages are called as “Statically typed”.
+Eg: C,C++,Java
+Dynamically typed: If the memory of the variable is given during the execution time itself then such types of
+programming languages are called as “dynamically typed”.
+Eg: Python,PHP,JavaScript
+
+2. What is the variable in Java?
+Ans: A variable is the title of a reserved region allocated in memory. In other words, it may be referred to as the
+name of a memory location.
+It is a container that holds the value while the Java Program is executed.
+Each variable should be given a unique name to indicate the storage area.
+A variable is assigned with a data type(we will learn about it after this topic).
+Syntax for Declaring a Variable:
+Type variable_name [= value];
+The variable_name is the name of a variable. We can initialise the variable by specifying an equal sign and a
+value (initialization i.e. assigning an initial value, is optional). However, the compiler never assigns a default
+value to an uninitialized local variable in Java.
+
+3. How To Assign a Value To Variable?
+Ans: We use assign operator (=) to assign a value to a variable. For Example,
+number = 10;
+flag = true;
+name = "CodePumpkin";
+We can assign a value to a variable any number of times in Java, but when we assign a new value to a
+variable, the old value will be overwritten.
+For example, in the first code snippet, we have first assigned a value 10 to the number and then modified its
+value by performing the number+20 operation and assigning it back to the variable number by .
+
+4. What are Primitive Data types in Java?
+Ans: byte, short, int, long, float, double, char, String, boolean.
+
+5. What are the Identifiers in Java?
+Ans: Identifiers in Java are symbolic names used for identification. They can be a class name, variable name,
+method name, package name, constant name, and more. However, In Java , There are some reserved words  that can not be used as an identifier.
+
+6. List the Operators in Java?
+Ans: Operators in JavaF
+D Arithmetic Operator_
+D Relational Operator_
+D Logical Operator_
+D Assignment Operator_
+D Unary Operator_
+D Bitwise Operators
+
+7. Explain about Increment and Decrement operators and give an examples
+Ans: Increment and Decrement Operators in Java are used to increase or decrease the value by 1. For example,
+Incremental operator ++ is useGul to increase the existing variable value by 1 (i = i + 1). Moreover, the decrement
+operator – – is useGul to decrease or subtract the current value by 1 (i = i – 1). The syntax oG both increment and
+decrement operators in Java Programming to preGix or postGix is
+Increment Operator E ++x or x++
+Decrement OperatorE --x or x-
+       
+
+         
